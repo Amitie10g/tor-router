@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:latest
 
 # Install the required packages
 RUN apk add --update tor iptables sudo
